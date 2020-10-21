@@ -1,0 +1,7 @@
+{
+   "files.eol": "\n",
+   "eslint.packageManager": "yarn",
+   "editor.tabSize": 3,
+   "javascript.preferences.quoteStyle": "single",
+   "javascript.format.semicolons": "remove",
+}

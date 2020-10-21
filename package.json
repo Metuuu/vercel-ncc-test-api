@@ -1,0 +1,13 @@
+{
+  "name": "vercel-test",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node -e 'require(`./dist/api/index.js`).handler().then(console.log);' -- "
+  },
+  "devDependencies": {
+    "@vercel/ncc": "latest"
+  }
+}
